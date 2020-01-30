@@ -1,6 +1,9 @@
 <?php 
+require '../global/Conexion.php';
+require '../model/ArticuloModel.php';
+require '../interface/ArticuloInterface.php';
 
-class ArticuloHelper{
+class ArticuloHelper implements ArticuloInterface{
 
 	public function __construct(){
 
