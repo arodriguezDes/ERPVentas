@@ -60,7 +60,7 @@ function findAll() {
 }
 
 function saveorupdate() {
-    $("#btnGuardar").prop("disable", true);
+    $("#btnGuardar").prop("disable", false);
     var formData = new FormData($("#formulario")[0]);
 
     $.ajax({
